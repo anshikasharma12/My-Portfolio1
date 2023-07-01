@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/index2.html#tac -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./My portfolio_files/css2" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(4, 18, 53);
+            color: white;
+            font-family: 'Poppins', sans-serif
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(12, 37, 96);
+            color: white;
+            ;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(159, 159, 200);
+            font-size: 1.1rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 1.5rem;
+            margin: 70px 0;
+        }
+
+        .leftSection .buttons {
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(232, 226, 226);
+            color: black;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 350px;
+            margin: 50px 0;
+            height: 350px;
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .zerosection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .zerosection div {
+            width: 30%;
+        }
+
+        .zeroleft {
+            font-size: 1rem;
+            margin: 70px 0;
+        }
+
+        .zeroright img {
+            width: 80%;
+            margin: 50px 0;
+        }
+        .skillsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .skillsection h1 {
+            font-size: 1.2rem;
+        }
+        .skillsection .circle {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .skillsection .vertical12 {
+            height: 73px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        .vertical-title12 {
+            position: relative;
+            top: 55px;
+            width: 100px;
+        }
+        .vertical-desc12 {
+            position: relative;
+            top: 76px;
+            color: gray;
+            width: 170px;
+        }
+
+
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.2rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 73px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 23px;
+            position: relative;
+            top: -32px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 55px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 66px;
+            color: gray;
+            width: 150px;
+        }
+
+        .Thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .Thirdsection h1 {
+            font-size: 1.2rem;
+        }
+
+        .Thirdsection .square {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+
+        }
+
+        .Thirdsection .vertical1 {
+            height: 73px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .vertical-title1 {
+            position: relative;
+            top: 55px;
+            width: 150px;
+        }
+
+        .vertical-desc1 {
+            position: relative;
+            top: 66px;
+            color: gray;
+            width: 150px;
+        }
+
+        .links {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+
+        }
+
+        .leftlink div a {
+            width: 30%;
+            color: white;
+        }
+
+        footer {
+            background-color: rgb(29, 17, 41);
+            margin: 120px 0;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            margin: 23px 122px;
+        }
+
+        footer .footer-first h2 {
+            font-size: 1em;
+        }
+
+        .footer ul {
+            list-style: none;
+            color:white;
+
+        }
+
+        .footer ul li {
+            margin-left: 233px;
+            color:white;
+        }
+        .footer ul li a {
+        
+            color:white;
+        }
+
+        /* .footer>div {
+            width: 123px;
+        }  */
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <div class="left"> Anshika's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/index2.html#header">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#about">About</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#skills">Skills</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#Education">Education</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#tac">Training and Certificates</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#links">Links</a></li>
+                </ul>
+            </div>
+            </nav>
+        
+
+
+        <main>
+            <section class="firstSection">
+                <div class="leftSection">
+                    Hi,This is<span class="purple"> Anshika Sharma
+                    </span>
+                    and I am a passionate
+                    <span id="element">Web Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span>
+                    <div class="buttons">
+                        <button class="btn"><a href="https://docs.google.com/document/d/1TMTU5iDbN6YPyTSgbPP1GJrgL0LyXYe3lu-c4HX-X4E/edit#heading=h.ik3hg4kihtyp">
+                                Resume</a></button>
+                        <button class="btn"><a href="https://github.com/anshikasharma12">Github</a></button>
+                    </div>
+                </div>
+                <div class="rightSection">
+                    <img src="./My portfolio_files/Artificial-Intelligence-5.jpg" alt="">
+                </div>
+            </section>
+            <hr>
+            <div id="about">
+                <section class="zerosection">
+                    <h1>ABOUT ME</h1>
+                    <div class="zeroleft">
+                        Highly motivated MCA student with expertise in web and Python development seeking a challenging
+                        position to utilize my skills and knowledge. Committed to delivering high-quality projects with
+                        exceptional attention to detail. Eager to contribute to a dynamic team and further enhance my
+                        technical abilities in a professional environment.
+                    </div>
+
+                    <div class="zeroright">
+                        <img src="./My portfolio_files/sharma.png" alt="" width="132">
+                    </div>
+
+                </section>
+                <hr>
+                <div id="skills">
+                    <section class="skillsection">
+
+                        <h1>SKILLS</h1>
+                        <div class="circle">
+                            <div class="vertical12">
+                                <div class="vertical-title12">
+                                    LANGUAGES
+
+                                </div>
+                                <div class="vertical-desc12">
+                                    <li>C</li>
+                                    <li>C++</li>
+                                    <li>Python</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </div>
+                            </div>
+                            <div class="vertical12">
+                                <div class="vertical-title12">
+                                    TECHNOLOGIES
+
+
+                                </div>
+                                <div class="vertical-desc12">
+                                    <li>R-DBMS</li>
+                                    <li>SQL</li>
+                                    <li>NoSQL</li>
+                                    <li>ARTIFICIAL INTELLIGENCE</li>
+                                    <li>MACHINE LEARNING</li>
+                                    <li>INTERNET OF THINGS(IoT)</li>
+                                </div>
+                            </div>
+                            <div class="vertical12">
+                                <div class="vertical-title12">
+                                    COURSEWORK
+
+
+                                </div>
+                                <div class="vertical-desc12">
+                                    <li>OPERATING SYSTEM</li>
+                                    <li>COMPUTER NETWORKS</li>
+                                    <li>DATA SCIENCE</li>
+                                    <li>OOP's</li>
+
+                                </div>
+                            </div>
+                            <div class="vertical12">
+                                <div class="vertical-title12">
+                                    OTHERS
+
+
+                                </div>
+                                <div class="vertical-desc12">
+                                    <li>Public speaking</li>
+                                    <li>Creativity</li>
+                                    <li>Self Motivation</li>
+                                    <li>Dancing</li>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+
+
+                    <hr>
+                    <div id="Education">
+                        <section class="secondsection">
+                            <span class="text-gray">What I have done so far</span>
+                            <h1>EDUCATION</h1>
+                            <div class="box">
+                                <div class="vertical">
+                                    <img class="image-top" src="./My portfolio_files/Punjabi_University,_Patiala_Logo.png" alt="">
+                                    <div class="vertical-title">
+                                        PUNJABI UNIVERSITY PATIALA
+
+                                    </div>
+                                    <div class="vertical-desc">
+                                        MCA(Master Of Computer Applications)
+                                        Expected June 2024
+                                    </div>
+                                </div>
+
+                                <div class="vertical">
+                                    <img class="image-top" src="./My portfolio_files/Punjabi_University,_Patiala_Logo.png" alt="">
+                                    <div class="vertical-title">
+                                        PUNJABI UNIVERSITY PATIALA
+                                    </div>
+                                    <div class="vertical-desc">
+                                        B.Sc.(Mathematics &amp; Computing)
+                                        Grad. May 2022| Cum. Per: 80.3
+                                    </div>
+                                </div>
+                                <div class="vertical">
+                                    <img src="./My portfolio_files/msp.png" alt="" class="image-top">
+                                    <div class="vertical-title">
+                                        MERITORIUS SCHOOL PATIALA
+
+                                    </div>
+                                    <div class="vertical-desc">
+                                        MATHEMATICS,PHYSICS,CHEMISTRY,
+                                        ENGLISH
+                                        Grad. March 2019| Cum. Per: 87.7.
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <hr>
+                        <div id="tac">
+                            <section class="Thirdsection">
+
+                                <h1>TRAINING AND CERTIFICATIONS</h1>
+                                <div class="square">
+                                    <div class="vertical1">
+                                        <!-- <img class="image-top1"
+                        src="https://upload.wikimedia.org/wikipedia/en/e/ed/Punjabi_University%2C_Patiala_Logo.png"
+                        alt=""> -->
+                                        <div class="vertical-title1">
+                                            NIELET ROPAR
+
+                                        </div>
+                                        <div class="vertical-desc1">
+                                            SUMMER TRAINING <span>JUNE 2023-JULY 2023</span>
+                                            <p>Summer training on Artificial Intelligence and Machine Learning
+                                                |Data Science Using Python......CERTIFIED</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="vertical1">
+                                        <!-- <img class="image-top1"
+                        src="https://upload.wikimedia.org/wikipedia/en/e/ed/Punjabi_University%2C_Patiala_Logo.png"
+                        alt=""> -->
+                                        <div class="vertical-title1">
+                                            SIMPLILEARN (SKILLUP)
+
+                                        </div>
+                                        <div class="vertical-desc1">
+                                            ONLINE COURSE<p>APRIL 2023</p>
+                                            <p>Course on Python for beginners.....CERTIFIED</p>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="vertical1">
+                                        <!-- <img class="image-top1"
+                        src="https://upload.wikimedia.org/wikipedia/en/e/ed/Punjabi_University%2C_Patiala_Logo.png"
+                        alt=""> -->
+                                        <div class="vertical-title1">
+                                            DEVTOWN
+
+                                        </div>
+                                        <div class="vertical-desc1">
+                                            BOOTCAMP january 2023
+                                            Bootcamp on Backend Web Development Using
+                                            Javascript,Node.js and Express.......CERTIFIED
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <hr>
+                            <div id="links">
+                                <section class="links">
+                                    <h1>.......LINKS........</h1>
+                                    <div class="leftlink">
+                                        <div><a href="https://github.com/anshikasharma12">GO TO MY GITHUB</a>
+                                        </div>
+                                        <div><a href="https://www.linkedin.com/in/anshika-sharma-b81479255/">GO
+                                                TO MY
+                                                LINKDLN ACCOUNT</a></div>
+                                </div></section>
+
+        </div></div></div></div></div></main>
+        <hr>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h2>Anshika's Developer portfolio</h2>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                    <li><a href="http://127.0.0.1:5500/index2.html#header">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#about">About</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#skills">Skills</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#Education">Education</a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#tac">
+                        <p>Training and Certificates</p></a></li>
+                    <li><a href="http://127.0.0.1:5500/index2.html#links">Links</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyright ©www.anshikasportfolio.com| All rights reserved
+            </div>
+        </footer>
+
+        <script src="./My portfolio_files/typed.umd.js.download"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer', 'Python Developer', 'Web Designer'],
+                typeSpeed: 50,
+            });
+        </script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</div><style data-typed-js-cursor-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style></body></html>
